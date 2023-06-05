@@ -20,6 +20,6 @@ class Biker
   end
 
   def personal_record(ride)
-    @rides # didn't have time to finish the logic to go with method
+    @rides # didn't have time to finish the logic to go with method, but would call on the arguements key values 
   end
 end
