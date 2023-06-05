@@ -15,12 +15,11 @@ class Biker
   end
 
   def log_ride(ride, distance)
-    # if @acceptable_terrain.includes?(ride.terrain) == true && @max_distance >= distance
-    #   @rides << ride 
-    # end
+      @rides[ride] = distance
+      # this method requires more logic to not record distance if terrain is not acceptable
   end
 
   def personal_record(ride)
-    
+    @rides # didn't have time to finish the logic to go with method
   end
 end
